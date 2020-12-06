@@ -17,7 +17,7 @@ if choose_bert_or_vanilla == '1':
     #print('Welcome to the BERT Summarizer!\n')
     
     # choose URL, text file, or copy/paste input
-    choose_summarizer = 'C'
+    choose_summarizer = 'A'
 
     if choose_summarizer == 'A':
         # taking input from website article
@@ -124,7 +124,7 @@ if choose_bert_or_vanilla == '2':
     #print('Welcome to the Baseline Model Summarizer!\n')
 
     # choose URL, text file, or string input
-    choose_input = 'C'
+    choose_input = 'A'
 
     if choose_input == 'A':
         print('\nOption A processes and summarizes web articles.\nBest results are obtained by entering a URL of a text-centric website (e.g., Wikipedia, news sites, blogs.)\n')
